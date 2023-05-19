@@ -153,11 +153,11 @@ func generateTeamChannelName(teamName string, channelName string) string {
 		name += "-"
 	}
 	name += channelName
-	name += "-" + randomString(LETTERS, 10)
+	name
 
 	return name
 }
 
 func generatePersonalMeetingName(username string) string {
-	return username + "-" + randomString(LETTERS, 20)
+	return username
 }
